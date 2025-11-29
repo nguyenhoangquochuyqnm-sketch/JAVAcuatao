@@ -12,9 +12,9 @@ public class clientsocket {
 
             new Thread(()->{
                 try {
-                    String s;
-                    while((s = bf.readLine())!=null){
-                        System.out.println(s);
+                    String t;
+                    while((t = bf.readLine())!=null){
+                        System.out.println(t);
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
